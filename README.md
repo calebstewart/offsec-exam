@@ -13,3 +13,11 @@ When writing your individual machine documentation, any images should be placed 
 individual machine directory under `img`. These are symlinked to `report/img` during
 building, so they shouldn't conflict with names of other machine images. Consider adding
 a prefix.
+
+## Installation
+When installing on a Debian-based distribution the following dependencies are required:
+
+ * `pandoc`
+ * `texlive`
+ * `texlive-latex-extra`
+ * `texlive-fonts-extra`
